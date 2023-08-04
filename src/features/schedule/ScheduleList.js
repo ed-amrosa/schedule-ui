@@ -13,7 +13,7 @@ const ScheduleList = () => {
 
     useEffect(() => {
         dispatch(fetchSchedules());
-    },[]);
+    }, [dispatch]);
 
     const onSelect = (e, id) => {
         dispatch(setSelectedSchedule(id));

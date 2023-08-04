@@ -24,7 +24,7 @@ const ScheduleLogList = () => {
         const params = {...idParam, ...filterParam};
         
         debouncedFetchScheduleLogs(params);
-    }, [selectedSchedule, filterValue, filterType]);
+    }, [selectedSchedule, filterValue, filterType, debouncedFetchScheduleLogs]);
 
     if(loading) return <Loading/>;
 
