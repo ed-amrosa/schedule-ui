@@ -1,0 +1,22 @@
+.input-label {
+    margin: 0 8px;
+    font-size: 20px;
+  }
+  
+  select,
+  input {
+    width: 50%;
+    height: 50%;
+  }
+  
+  select {
+    width: 50%;
+    height: 70%;
+  }
+  
+  .input-container {
+    display: flex;
+    height: 50%;
+    align-items: center;
+    margin: 0 8px;
+  }

@@ -1,0 +1,32 @@
+.grid-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .schedule-log-list-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 4px;
+    column-gap: 4px;
+  }
+  
+  .schedule-log-list-container {
+    height: 90%;
+    width: 98%;
+    border-radius: 8px;
+    background-color: rgba(255, 252, 252, 0.662);
+    overflow: auto;
+    margin: 0 8px;
+  }
+  
+  .list-container {
+    width: 100%;
+    border-radius: 8px;
+    background-color: transparent;
+    opacity: 0.9;
+    height: 100%;
+    display: grid;
+    row-gap: 4px;
+    overflow: auto;
+    opacity:0.8;
+  }

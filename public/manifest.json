@@ -1,0 +1,25 @@
+{
+  "short_name": "Schedule App",
+  "name": "Schedule App Sample",
+  "icons": [
+    {
+      "src": "log.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "event.png",
+      "type": "image/png",
+      "sizes": "80x80"
+    },
+    {
+      "src": "menu.png",
+      "type": "image/png",
+      "sizes": "80x80"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

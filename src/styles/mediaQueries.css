@@ -1,0 +1,75 @@
+
+@media only screen and (max-width: 1020px) and (min-width: 880px ) {
+    .schedule-log-list-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      row-gap: 4px;
+      column-gap: 4px;
+    }
+    .app-left {
+      width: 35%;
+    }
+    .app-right {
+      width: 65%;
+    }
+  }
+  
+  @media only screen and (max-width: 880px) and (min-width: 480px) {
+    .schedule-log-list-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      row-gap: 4px;
+      column-gap: 4px;
+    }
+    .app-left {
+      width: 40%;
+    }
+    .app-right {
+      width: 60%;
+    }
+  }
+  
+  @media only screen and (max-width: 580px) {
+    .schedule-log-list-grid {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      row-gap: 4px;
+      column-gap: 4px;
+    }
+    .app-left {
+      width: 50%;
+    }
+    .app-right {
+      width: 50%;
+    }
+    .flex {
+      display: flex;
+    }
+    .input-container {
+      width: 100%;
+      height: 50%;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .schedule-log-list-grid {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      row-gap: 4px;
+      column-gap: 4px;
+    }
+    .app-left {
+      width: 100%;
+      height: 30%;
+      overflow: auto;
+    }
+    .app-right {
+      width: 100%;
+      height: 70%;
+      overflow: auto;
+    }
+    .flex {
+      display: block;
+    }
+  }
+  
